@@ -25,4 +25,3 @@ urlpatterns = [
     path('about', TemplateView.as_view(template_name='about.html')),
     path('', TemplateView.as_view(template_name='home.html')),
 ]
-# testing a commit
